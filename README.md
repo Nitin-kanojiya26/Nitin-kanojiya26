@@ -164,12 +164,11 @@ I believe in continuous improvement and staying updated with the latest technolo
 
 ---
 
-<div align="center">
-  ⭐ If you find my work interesting, feel free to star my repositories! ⭐
-</div>
-
----
-
 > **"No problem can be solved from the same level of consciousness that created it."** — Albert Einstein
 >
 > **"The child is father of the man."** — William Wordsworth
+
+---
+<div align="center">
+  ⭐ If you find my work interesting, feel free to star my repositories! ⭐
+</div>
