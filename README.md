@@ -92,15 +92,7 @@ A passionate developer, competitive programmer, and tech enthusiast who loves so
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nitin-kanojiya26&show_icons=true&theme=radical&cache_seconds=1800" alt="GitHub Stats" width="600" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin-kanojiya26&layout=compact&theme=radical&cache_seconds=1800" alt="Top languages" width="600" />
-</p>
+## 📊 GitHub Activity
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nitin-kanojiya26&theme=radical" alt="GitHub Profile Summary" width="600" />
@@ -172,8 +164,12 @@ I believe in continuous improvement and staying updated with the latest technolo
 
 ---
 
-> **"Code is not just about solving problems — it is about thinking clearly, building confidently, learning continuously, and making a meaningful impact."**
-
 <div align="center">
   ⭐ If you find my work interesting, feel free to star my repositories! ⭐
 </div>
+
+---
+
+> **"No problem can be solved from the same level of consciousness that created it."** — Albert Einstein
+>
+> **"The child is father of the man."** — William Wordsworth
