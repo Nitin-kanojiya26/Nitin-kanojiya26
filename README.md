@@ -143,7 +143,7 @@ Tools:        VS Code, Postman, Figma, GitHub Actions
 - **Codeforces**: https://codeforces.com/profile/Nitin__26
 - **Email**: kanojiyanitin870@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/nitinkanojiya/
-- **Portfolio**: https://portfolio-amber-two-3xjhebik8z.vercel.app/
+- **Portfolio**: https://nitin26-portfolio.vercel.app/
 
 ---
 
