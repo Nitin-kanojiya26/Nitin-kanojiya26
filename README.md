@@ -1,6 +1,6 @@
 # Hi, I'm Nitin Kanojiya 👋
 
-A passionate developer, competitive programmer, and tech enthusiast who loves solving real-world problems with logic, consistency, and creativity. Dedicated to building scalable solutions and continuously improving problem-solving skills.
+A passionate developer, competitive programmer, and tech enthusiast who loves solving real-world problems with logic, consistency, and creativity. Dedicated to building scalable solutions and continually improving my skills.
 
 ---
 
@@ -95,11 +95,15 @@ A passionate developer, competitive programmer, and tech enthusiast who loves so
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nitin-kanojiya26&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nitin-kanojiya26&show_icons=true&theme=radical&cache_seconds=1800" alt="GitHub Stats" width="600" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin-kanojiya26&layout=compact&theme=radical" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin-kanojiya26&layout=compact&theme=radical&cache_seconds=1800" alt="Top languages" width="600" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nitin-kanojiya26&theme=radical" alt="GitHub Profile Summary" width="600" />
 </p>
 
 ---
