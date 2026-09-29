@@ -95,7 +95,7 @@ A passionate developer, competitive programmer, and tech enthusiast who loves so
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nitin-kanojiya26&theme=radical" alt="GitHub Profile Summary" width="600" />
+  <img src="https://github.com/Nitin-kanojiya26.png" alt="GitHub Profile" width="600" />
 </p>
 
 ---
