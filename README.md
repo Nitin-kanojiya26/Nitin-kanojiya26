@@ -164,11 +164,8 @@ A dark, interactive developer portfolio with animated UI, a WebGL globe, live ti
   <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Nitin__26&theme=dark" alt="Codeforces stats" />
 </p>
 
-## Achievements
 
-- 🏅 LeetCode Knight — 1879 contest rating, 747+ problems solved
-- 🥈 Runner-Up, A-Idea 2.0 — built AI-powered automation workflows with n8n
-- 📜 Certifications in Java, Spring Boot, SQL, and Backend Development
+- 🏅 LeetCode — 1700+ contest rating, 750+ problems solved
 
 ---
 
