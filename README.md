@@ -95,9 +95,11 @@ A passionate developer, competitive programmer, and tech enthusiast who loves so
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="./github-contribution-grid.svg" alt="GitHub Contribution Calendar" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin-kanojiya26&theme=github-compact&hide_border=true"
+    alt="GitHub Activity Graph"
+  />
 </p>
-
 ---
 
 ## 🌟 What I'm Currently Working On
