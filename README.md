@@ -1,6 +1,6 @@
 # Hi, I'm Nitin Kanojiya 👋
 
-A passionate developer, competitive programmer, and tech enthusiast who loves solving real-world problems with logic, consistency, and creativity. Dedicated to building scalable solutions and continually improving my skills.
+A passionate developer, competitive programmer, and tech enthusiast who loves solving real-world problems with logic, consistency, and creativity. Dedicated to building scalable solutions and continuous learning.
 
 ---
 
@@ -95,11 +95,9 @@ A passionate developer, competitive programmer, and tech enthusiast who loves so
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Nitin-kanojiya26&theme=github-compact&hide_border=true"
-    alt="GitHub Activity Graph"
-  />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nitin-kanojiya26&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
 </p>
+
 ---
 
 ## 🌟 What I'm Currently Working On
