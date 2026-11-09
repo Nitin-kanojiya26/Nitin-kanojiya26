@@ -43,7 +43,7 @@ A competitive programming platform that pairs DSA practice and live contests wit
 
 ---
 
-### 2. [GitPR](https://github.com/Nitin-kanojiya26/GitPR)
+### 2. [Vigilentia-GitPR](https://github.com/Nitin-kanojiya26/vigilentia)
 
 An AI pull request reviewer built as a GitHub App. It analyzes pull request changes, retrieves relevant team style-guide rules, and posts contextual inline review comments.
 
@@ -60,7 +60,7 @@ An AI pull request reviewer built as a GitHub App. It analyzes pull request chan
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
 </p>
 
-[Repository](https://github.com/Nitin-kanojiya26/GitPR)
+[Repository](https://github.com/Nitin-kanojiya26/vigilentia) · [Live demo](https://gitpr-bot.onrender.com)
 
 ---
 
@@ -79,7 +79,7 @@ A full-stack personal finance application with AI-powered expense classification
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
 
-[Repository](https://github.com/Nitin-kanojiya26/expense-tracker-ai)
+[Repository](https://github.com/Nitin-kanojiya26/expense-tracker-ai) · [Live demo](https://expense-tracker-ai-theta.vercel.app)
 
 ---
 
