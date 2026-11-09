@@ -93,7 +93,7 @@ A classroom attendance system that combines rotating QR codes with face verifica
 
 [Repository](https://github.com/Nitin-kanojiya26/ClassPluse)
 
-> **Implementation note:** the live-session page refreshes its QR image every 15 seconds, but the backend currently reuses tokens for local testing and gives newly generated tokens a one-day expiry. The server-side token expiry is therefore not currently 15 seconds. I couldn't verify a public live deployment for ClassPluse.
+> **Note:** the live-session page refreshes its QR image every 15 seconds, but the backend currently reuses tokens for local testing and gives newly generated tokens a one-day expiry. The server-side token expiry is therefore not currently 15 seconds.
 
 ---
 
