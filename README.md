@@ -29,26 +29,27 @@
 
 ## Featured Projects
 
-### 1. [Codexium](https://github.com/Nitin-kanojiya26/Codexium)
+### 1. [Codexium](https://github.com/Nitin-kanojiya26/Coding-platform)
 
-A developer-focused coding project built to support a more effective programming and problem-solving workflow.
+A competitive programming platform that pairs DSA practice and live contests with **Build Mode**, where learners create and test working REST APIs.
 
-- Created as a practical software project focused on coding and developer productivity
-- Designed to bring core programming functionality into a dedicated platform
-- See the repository for implementation details and current features
+- **Build Mode:** runs learner-built Node.js/Express APIs in Docker-isolated containers and evaluates them with automated HTTP tests
+- **Resilient code execution:** uses a self-hosted Judge0 instance as the primary DSA execution engine, with OnlineCompiler.io as an automatic fallback when the primary engine is unavailable
+- **Real-time contests:** broadcasts submission verdicts and standings through Socket.IO; the project README reports a 100-user load test where Redis, BullMQ, and sockets improved leaderboard P95 from 12.6 seconds to 271 ms
 
-[Repository](https://github.com/Nitin-kanojiya26/Codexium)
+[Repository](https://github.com/Nitin-kanojiya26/Coding-platform) · [Live demo](https://coding-platform-kohl-alpha.vercel.app)
+
+> **Execution setup:** Judge0 is self-hosted and can run on a local machine. When the deployed backend needs to reach a Judge0 instance running on your PC, expose it through a secure tunnel such as ngrok; if Judge0 is offline or errors, the configured OnlineCompiler.io fallback can handle submissions. Build Mode uses a separate Docker worker, which can connect outbound to the cloud queue without port forwarding.
 
 ---
 
 ### 2. [GitPR](https://github.com/Nitin-kanojiya26/GitPR)
 
-An AI-powered pull request reviewer built as a GitHub App. GitPR analyzes code changes, retrieves relevant team style-guide rules, and posts contextual inline review comments on changed lines.
+An AI pull request reviewer built as a GitHub App. It analyzes pull request changes, retrieves relevant team style-guide rules, and posts contextual inline review comments.
 
 - Verifies signed GitHub webhooks and maps diffs to per-file changed-line ranges for valid inline comments
 - Uses retrieval-augmented generation (RAG) to find relevant style-guide rules and ground review feedback in team conventions
-- Validates structured LLM output and filters comments that fall outside the diff
-- Uses queued jobs, idempotent webhook handling, and retry with backoff for more reliable processing
+- Validates structured LLM output, filters comments outside the diff, and processes work with a queue, idempotent webhook handling, and retries
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -84,21 +85,15 @@ A full-stack personal finance application with AI-powered expense classification
 
 ### 4. [ClassPluse](https://github.com/Nitin-kanojiya26/ClassPluse)
 
-A classroom attendance system that combines short-lived QR codes with face recognition to help teachers verify student attendance.
+A classroom attendance system that combines rotating QR codes with face verification, course management, and attendance reporting.
 
-- Teachers generate attendance QR codes that expire after 15 seconds; students scan an active code to begin attendance verification
-- Verifies each attendance attempt using face recognition and matches the captured face against the student's registered face data
-- Registers or updates a student's face data during attendance verification, as described for the project workflow
-- Implements face detection and matching with **FaceRecognitionDotNet**, backed by Dlib face models; uses **QRCoder** to generate QR codes
-
-<p>
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C sharp" />
-  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
-  <img src="https://img.shields.io/badge/FaceRecognitionDotNet-2D3748?style=flat-square&logo=github&logoColor=white" alt="FaceRecognitionDotNet" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-</p>
+- Faculty can run live sessions with a QR image refreshed every 15 seconds; students scan the current code and verify their identity against a face registered to their account
+- Uses **FaceRecognitionDotNet** with Dlib models for face encodings and matching, and **QRCoder** to generate QR images; a high-confidence match refreshes the stored face encoding
+- Provides attendance history, live class counts, faculty adjustments, spreadsheet exports, and automatic marking of unrecorded students as absent after a session
 
 [Repository](https://github.com/Nitin-kanojiya26/ClassPluse)
+
+> **Implementation note:** the live-session page refreshes its QR image every 15 seconds, but the backend currently reuses tokens for local testing and gives newly generated tokens a one-day expiry. The server-side token expiry is therefore not currently 15 seconds. I couldn't verify a public live deployment for ClassPluse.
 
 ---
 
