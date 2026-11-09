@@ -31,30 +31,24 @@
 
 ### 1. [Codexium](https://github.com/Nitin-kanojiya26/Codexium)
 
-[Add a one-line description of Codexium: what it does and who it is for]
-<!-- TODO: replace the bracketed text, confirm the repo URL, and add a live demo link if you have one -->
+A developer-focused coding project built to support a more effective programming and problem-solving workflow.
 
-- [Highlight 1: the main feature or the hardest problem you solved]
-- [Highlight 2: an architecture or technology decision]
-- [Highlight 3: a result, number, or user-facing capability]
+- Created as a practical software project focused on coding and developer productivity
+- Designed to bring core programming functionality into a dedicated platform
+- See the repository for implementation details and current features
 
-<p>
-  <img src="https://img.shields.io/badge/Add-Your%20Stack-lightgrey?style=flat-square" alt="Stack placeholder" />
-</p>
-
-[Repository](https://github.com/Nitin-kanojiya26/Codexium) · [Live demo](#)
+[Repository](https://github.com/Nitin-kanojiya26/Codexium)
 
 ---
 
 ### 2. [GitPR](https://github.com/Nitin-kanojiya26/GitPR)
 
-An AI pull request reviewer built as a GitHub App. It reads the diff of a pull request, retrieves the most relevant rules from a team style guide, and posts inline review comments on the exact changed lines.
-<!-- TODO: confirm the repo URL and add the live install link or demo GIF when available -->
+An AI-powered pull request reviewer built as a GitHub App. GitPR analyzes code changes, retrieves relevant team style-guide rules, and posts contextual inline review comments on changed lines.
 
-- Receives signed GitHub webhooks and parses diffs into per-file line ranges, so every comment lands on a valid changed line
-- Uses retrieval-augmented generation (RAG): style-guide rules are embedded and retrieved per file, so comments cite the specific rule that was broken
-- Validates structured LLM output and drops comments on lines outside the diff, which avoids rejected review requests
-- Designed for reliability with a job queue, idempotent webhook handling, and retry with backoff
+- Verifies signed GitHub webhooks and maps diffs to per-file changed-line ranges for valid inline comments
+- Uses retrieval-augmented generation (RAG) to find relevant style-guide rules and ground review feedback in team conventions
+- Validates structured LLM output and filters comments that fall outside the diff
+- Uses queued jobs, idempotent webhook handling, and retry with backoff for more reliable processing
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -88,20 +82,23 @@ A full-stack personal finance application with AI-powered expense classification
 
 ---
 
-### 4. [ClassPlus](https://github.com/Nitin-kanojiya26/ClassPlus)
+### 4. [ClassPluse](https://github.com/Nitin-kanojiya26/ClassPluse)
 
-[Add a one-line description of ClassPlus: what it does and who it is for]
-<!-- TODO: confirm the project name spelling, the repo URL, and add a demo link if you have one -->
+A classroom attendance system that combines short-lived QR codes with face recognition to help teachers verify student attendance.
 
-- [Highlight 1]
-- [Highlight 2]
-- [Highlight 3]
+- Teachers generate attendance QR codes that expire after 15 seconds; students scan an active code to begin attendance verification
+- Verifies each attendance attempt using face recognition and matches the captured face against the student's registered face data
+- Registers or updates a student's face data during attendance verification, as described for the project workflow
+- Implements face detection and matching with **FaceRecognitionDotNet**, backed by Dlib face models; uses **QRCoder** to generate QR codes
 
 <p>
-  <img src="https://img.shields.io/badge/Add-Your%20Stack-lightgrey?style=flat-square" alt="Stack placeholder" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C sharp" />
+  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
+  <img src="https://img.shields.io/badge/FaceRecognitionDotNet-2D3748?style=flat-square&logo=github&logoColor=white" alt="FaceRecognitionDotNet" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
 </p>
 
-[Repository](https://github.com/Nitin-kanojiya26/ClassPlus) · [Live demo](#)
+[Repository](https://github.com/Nitin-kanojiya26/ClassPluse)
 
 ---
 
