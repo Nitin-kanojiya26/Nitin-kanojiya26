@@ -43,7 +43,7 @@ A competitive programming platform that pairs DSA practice and live contests wit
 
 ---
 
-### 2. [Vigilentia-GitPR](https://github.com/Nitin-kanojiya26/vigilentia)
+### 2. [Vigilentia-GitPR[bot]](https://github.com/Nitin-kanojiya26/vigilentia)
 
 An AI pull request reviewer built as a GitHub App. It analyzes pull request changes, retrieves relevant team style-guide rules, and posts contextual inline review comments.
 
